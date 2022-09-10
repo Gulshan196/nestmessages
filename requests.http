@@ -7,9 +7,19 @@ POST http://localhost:3000/messages
 content-type: application/json
 
 {
-  "content": "new"
+  "content": "added 1"
 }
 
-
 ### Get a particular message
-GET http://localhost:3000/messages/123123123
+GET http://localhost:3000/messages/571
+
+### Delete a particular message
+Delete http://localhost:3000/messages/268
+
+### update a particular message
+PUT  http://localhost:3000/messages/571
+content-type: application/json
+
+{
+  "content": "naya wala"
+}
